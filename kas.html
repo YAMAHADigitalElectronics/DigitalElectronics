@@ -1,0 +1,37 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+<p>Hover here<span>some text here ?</br>
+sjgjgjlhjlgdflghlhglfgkhg</br>
+dhgdskfgsdkjgfskj
+</br>dgugougousgosgoigog
+</br>
+<a href="raj.html">hello</a></span></p>
+<h2>Search</h2>
+<form name="search" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+  Keyword &nbsp;
+  <input type="text" name="searchq" id="searchq" size="30" placeholder="Enter keyword..">&nbsp; By &nbsp;
+  <select name="searchopt" id="searchopt">
+    <option value=""></option>
+    <option value="Members">Members</option>
+    <option value="Journal">Journal</option>
+    <option value="Conference">Conference</option>
+    <option value="Awards">Awards</option>
+    <option value="Grants">Grants</option>
+    <option value="Patents">Patents</option>
+    <option value="Research Grants">Research Grants</option>
+    <option value="Book Chapter">Book Chapter</option>
+    <option value="Book Publications">Book Publications</option>
+    <option value="Other Publications">Other Publications</option>
+  </select>
+  &nbsp;
+  <input type="submit" id="submit" name="submit" value="Search">
+</form>
+<br>
+<p>
+  <h4>Results</h4>
+</p>
+</body>
+</html>
